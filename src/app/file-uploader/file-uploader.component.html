@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <title>Document</title>
-</head>
-<body>
-  <angular-file-uploader [config]="afuConfig"></angular-file-uploader>
-</body>
-</html>
+<mat-card>
+    <mat-card-title>
+        Simple File Uploader
+    </mat-card-title>
+    <mat-card-content>
+            <input type="file" multiple>
+    </mat-card-content>
+    <mat-card-actions>
+            <button mat-raised-button color="primary">Upload</button>
+            <button mat-raised-button color="warn">Reset</button>
+    </mat-card-actions>
+<mat-card-footer>
+        <mat-progress-bar mode="determinate" value="40"></mat-progress-bar> 
+</mat-card-footer>
+</mat-card>
