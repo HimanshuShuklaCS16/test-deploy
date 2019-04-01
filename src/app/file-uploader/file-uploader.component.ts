@@ -8,7 +8,9 @@ import {SharedModule} from '../shared/shared.module';
 export class FileUploaderComponent implements OnInit {
 
   constructor() { }
- 
+ upload(){
+   
+ }
   ngOnInit() {
   }
 
